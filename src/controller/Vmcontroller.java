@@ -2,7 +2,7 @@
 public class Vmcontroller{
     
     @GetMapping("/getvas")
-    public ResponseEntity<List<virtualAccpunt>> getVas(@AuthenticationPrincipal User user){
-        
+    public ResponseEntity<List<VirtualAccount>> getVas(@AuthenticationPrincipal User user){
+
     }
 }
